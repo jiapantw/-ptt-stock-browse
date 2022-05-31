@@ -1,0 +1,26 @@
+{
+  "name": "ptt-stock-browse",
+  "version": "1.0.0",
+  "description": "browser ptt stock article, and add some features.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiapantw/ptt-stock-browse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiapantw/ptt-stock-browse/issues"
+  },
+  "homepage": "https://github.com/jiapantw/ptt-stock-browse#readme",
+  "dependencies": {
+    "crawler": "^1.3.0",
+    "ejs": "^3.1.8",
+    "koa": "^2.13.4",
+    "koa-views": "^8.0.0"
+  }
+}
